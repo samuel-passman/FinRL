@@ -12,14 +12,13 @@ additionalRepositories:
 workspaceLocation: ai4finance/FinRL/main.code-workspace
 
 tasks:
-  - name: Configure conda & install dependencies
-    before: |
+  - before: |
       conda create --name ai4finance python=3.9 -y
       conda activate ai4finance
       conda install -c conda-forge ta-lib -y
-    init: |
+  - init: |
       pip install -r requirements.txt
-    command: |
+  - command: |
       pre-commit install
 
 gitConfig:
@@ -29,8 +28,8 @@ vscode:
   extensions:
     - ms-python.python
     - ms-toolsai.jupyter
-    - ms-toolsai.jupyter-keymap # Added Jupyter Keymap
-    - ms-toolsai.jupyter-renderers # Added Jupyter Renderers
+    - ms-toolsai.jupyter-keymap
+    - ms-toolsai.jupyter-renderers
     - GitHub.copilot-chat
     - GitHub.copilot
     - ms-python.autopep8
