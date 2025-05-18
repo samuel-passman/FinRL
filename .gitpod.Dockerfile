@@ -10,7 +10,7 @@ RUN sudo install-packages \
     zlib1g-dev \
     libgl1-mesa-glx \
     swig \
-    python-dev
+    python3-dev
 
 USER gitpod
 
