@@ -1,5 +1,15 @@
 FROM gitpod/workspace-python-3.8
 
-RUN curl -O https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh
+# Set user
+USER gitpod
 
-RUN bash ~/Anaconda3-2024.10-1-Linux-x86_64.sh -b
+# Install Miniconda
+RUN wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh && \
+    /bin/bash ~/miniconda.sh -b -p $HOME/miniconda && \
+    rm ~/miniconda.sh
+
+# Add Miniconda to PATH
+ENV PATH="$HOME/miniconda/bin:$PATH"
+
+# Initialize conda in bash config fiiles:
+RUN conda init bash
