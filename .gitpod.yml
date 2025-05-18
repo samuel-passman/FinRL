@@ -8,7 +8,7 @@ additionalRepositories:
     checkoutLocation: /ElegantRL
   - url: https://github.com/AI4Finance-Foundation/FinRL-Meta.git
     checkoutLocation: /FinRL-Meta
-    
+
 workspaceLocation: ai4finance/FinRL/main.code-workspace
 
 tasks:
@@ -17,7 +17,7 @@ tasks:
       conda create --name ai4finance python=3.8 -y
       conda activate ai4finance
     command: |
-      pip install -r ai4finance/FinRL/requirements.txt
+      pip install -r requirements.txt
 
 gitConfig:
   core.autocrlf: input
