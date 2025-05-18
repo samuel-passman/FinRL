@@ -1,5 +1,5 @@
 image:
-  file: .gitpod.dockerfile
+  file: .gitpod.Dockerfile
 
 additionalRepositories:
   - url: https://github.com/AI4Finance-Foundation/ElegantRL.git
@@ -14,3 +14,4 @@ workspaceLocation: main.code-workspace
 
 gitConfig:
   core.autocrlf: input
+
