@@ -1,8 +1,8 @@
 FROM gitpod/workspace-python-3.8
 
-RUN upgrade-packages
+RUN sudo upgrade-packages
 
-RUN install-packages swig 
+RUN sudo install-packages swig 
 
 # Set user
 USER gitpod
