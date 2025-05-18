@@ -6,6 +6,10 @@ RUN sudo upgrade-packages
 # Install required system dependencies
 RUN sudo install-packages \
     cmake \
+    libopenmpi-dev \
+    python3-dev \
+    zlib1g-dev \
+    libgl1-mesa-glx \
     swig
 
 USER gitpod
