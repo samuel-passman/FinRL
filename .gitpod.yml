@@ -16,9 +16,7 @@ tasks:
       conda create --name ai4finance python=3.9 -y
       conda activate ai4finance
       conda install -c conda-forge ta-lib -y
-  - init: |
       pip install -r requirements.txt
-  - command: |
       pre-commit install
 
 gitConfig:
