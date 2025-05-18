@@ -23,3 +23,8 @@ ENV PATH="$HOME/miniconda/bin:$PATH"
 
 # Initialize conda for bash
 RUN conda init bash
+
+COPY requirements.txt requirements.txt
+
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir -r requirements.txt
