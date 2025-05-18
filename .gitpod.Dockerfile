@@ -10,7 +10,17 @@ RUN sudo install-packages \
     zlib1g-dev \
     libgl1-mesa-glx \
     swig \
-    python3-dev
+    libsdl2-dev \
+    libsdl2-image-dev \ 
+    libsdl2-mixer-dev \
+    libsdl2-ttf-dev \
+    libfreetype6-dev \
+    libportmidi-dev \
+    libjpeg-dev \
+    build-essential \
+    python3-setuptools \
+    python3-dev \
+    cython3
 
 USER gitpod
 
