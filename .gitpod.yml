@@ -3,9 +3,9 @@ image: gitpod/workspace-python-3.7
 
 additionalRepositories:
     - url: https://github.com/AI4Finance-Foundation/ElegantRL.git
-      checkoutLocation: /home/gitpod/ElegantRL
+      checkoutLocation: /ElegantRL
     - url: https://github.com/AI4Finance-Foundation/FinRL-Meta.git
-      checkoutLocation: /home/gitpod/FinRL-Meta
+      checkoutLocation: /FinRL-Meta
 
 
 tasks:
