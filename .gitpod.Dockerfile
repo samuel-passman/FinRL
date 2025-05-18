@@ -9,7 +9,8 @@ RUN sudo install-packages \
     libopenmpi-dev \
     zlib1g-dev \
     libgl1-mesa-glx \
-    swig
+    swig \
+    python-dev
 
 USER gitpod
 
