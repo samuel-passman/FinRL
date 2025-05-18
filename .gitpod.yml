@@ -8,7 +8,8 @@ additionalRepositories:
     checkoutLocation: /ElegantRL
   - url: https://github.com/AI4Finance-Foundation/FinRL-Meta.git
     checkoutLocation: /FinRL-Meta
-workspaceLocation: main.code-workspace
+    
+workspaceLocation: ai4finance/FinRL/main.code-workspace
 
 tasks:
   - name: Configure conda
