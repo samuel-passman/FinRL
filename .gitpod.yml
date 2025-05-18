@@ -1,6 +1,8 @@
 image:
   file: .gitpod.Dockerfile
 
+checkoutLocation: "/ai4finance"
+
 additionalRepositories:
   - url: https://github.com/AI4Finance-Foundation/ElegantRL.git
     checkoutLocation: /ElegantRL
@@ -8,10 +10,13 @@ additionalRepositories:
     checkoutLocation: /FinRL-Meta
 workspaceLocation: main.code-workspace
 
-# tasks:
-#   - init: |
-#       pip install -r requirements.txt
+tasks:
+  - name: Configure conda
+    init: |
+      conda create --name ai4finance python=3.8
+      conda activate ai4finance
+    command: |
+      pip install -r ai4finance/FinRL/requirements.txt
 
 gitConfig:
   core.autocrlf: input
-
