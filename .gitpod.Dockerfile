@@ -18,4 +18,4 @@ ENV PATH="$HOME/miniconda/bin:$PATH"
 # Initialize conda in bash config fiiles:
 RUN conda init bash
 
-RUN conda install -c conda-forge ta-lib -y
+# RUN conda install -c conda-forge ta-lib -y
