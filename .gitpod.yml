@@ -22,3 +22,17 @@ tasks:
 
 gitConfig:
   core.autocrlf: input
+
+vscode:
+  extensions:
+    - ms-python.python
+    - ms-toolsai.jupyter
+    - GitHub.copilot-chat
+    - GitHub.copilot
+    - ms-python.autopep8
+    - ms-python.debugpy
+    - jojoee.conda-cheatsheet
+
+  
+
+
