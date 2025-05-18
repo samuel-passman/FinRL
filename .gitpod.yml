@@ -6,12 +6,12 @@ additionalRepositories:
       checkoutLocation: /ElegantRL
     - url: https://github.com/AI4Finance-Foundation/FinRL-Meta.git
       checkoutLocation: /FinRL-Meta
+workspaceLocation: main.code-workspace 
 
 
 tasks:
   - init: |
-      echo "Setting up the environment..."
-      poetry install --with dev
+      pip install -r requirements.txt
 
 
 gitConfig:
