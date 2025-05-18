@@ -1,0 +1,6 @@
+image: gitpod/workspace-python-3.7
+
+tasks:
+  - init: |
+      echo "Setting up the environment..."
+      poetry install --with dev
