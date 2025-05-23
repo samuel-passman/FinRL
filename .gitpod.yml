@@ -1,15 +1,15 @@
 image:
   file: .gitpod.Dockerfile
 
-checkoutLocation: "/ai4finance/FinRL"
+checkoutLocation: "/FinRL"
 
 additionalRepositories:
   - url: https://github.com/AI4Finance-Foundation/ElegantRL.git
-    checkoutLocation: /ai4finance/ElegantRL
+    checkoutLocation: /ElegantRL
   - url: https://github.com/AI4Finance-Foundation/FinRL-Meta.git
-    checkoutLocation: /ai4finance/FinRL-Meta
+    checkoutLocation: /FinRL-Meta
 
-workspaceLocation: /ai4finance/FinRL/.gitpod.code-workspace
+workspaceLocation: gitpod.code-workspace
 
 tasks:
   - init: |
