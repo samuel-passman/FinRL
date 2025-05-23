@@ -9,7 +9,7 @@ additionalRepositories:
   - url: https://github.com/AI4Finance-Foundation/FinRL-Meta.git
     checkoutLocation: /ai4finance/FinRL-Meta
 
-workspaceLocation: ai4finance/FinRL/.gitpod.code-workspace
+workspaceLocation: .gitpod.code-workspace
 
 tasks:
   - init: |
