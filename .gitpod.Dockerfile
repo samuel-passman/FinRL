@@ -1,9 +1,9 @@
 FROM gitpod/workspace-python:latest
 
-# Upgrade system packages
+# Upgrade system packages using GitPod helper script as part of the base image
 RUN sudo upgrade-packages
 
-# Install required system dependencies
+# Install required dependencies
 RUN sudo install-packages \
     cmake \
     libopenmpi-dev \
