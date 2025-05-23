@@ -69,19 +69,19 @@ RUN conda init bash
 ```
 
 
-## .code-workspace - to group the additional repositories in the workspace
+## main.code-workspace - to group the additional repositories in the workspace
 ```JSON
 {
-    "folders": [
-        {
-            "path": "."
-        },
-        {
-            "path": "../ElegantRL"
-        },
-        {
-            "path": "../FinRL-Meta"
-        }
-    ]
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../ElegantRL"
+		},
+		{
+			"path": "../FinRL-Meta"
+		}
+	]
 }
 ```
