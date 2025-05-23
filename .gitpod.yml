@@ -19,6 +19,7 @@ tasks:
       pip install -r requirements.txt
       pre-commit install
 
+# standardize line endings
 gitConfig:
   core.autocrlf: input
 
