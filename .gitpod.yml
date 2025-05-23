@@ -14,8 +14,8 @@ workspaceLocation: ai4finance/FinRL/main.code-workspace
 tasks:
   - init: |
       conda create --name ai4finance python=3.9 -y
-      conda install -c conda-forge ta-lib -y
       conda activate ai4finance
+      conda install -c conda-forge ta-lib -y
       pip install -r requirements.txt
       pre-commit install
 
