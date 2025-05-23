@@ -1,13 +1,13 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"path": "/ai4finance/FinRL"
 		},
 		{
-			"path": "../ElegantRL"
+			"path": "/ai4finance/ElegantRL"
 		},
 		{
-			"path": "../FinRL-Meta"
+			"path": "/ai4finance/FinRL-Meta"
 		}
 	]
 }
